@@ -1,0 +1,474 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.17">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="hip_it_utm2320180421235253588" source="/home/jairofreitas/Área de Trabalho/pdi_itaborai/Hipsometria/hip_it_utm23.ovr" name="hip_it_utm23">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-43.27500000000009095</xmin>
+      <ymin>-1552.875</ymin>
+      <xmax>1774.27500000000009095</xmax>
+      <ymax>37.875</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hip_it_utm2320180421235253588"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>hip_it_utm2320180421235253588</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="hip_it_utm23" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="hip_it_utm2320180421235253588" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <Composer title="Compositor 1" visible="0">
+    <Composition resizeToContentsMarginLeft="1.5" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <customproperties/>
+    </Composition>
+  </Composer>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>0</xmin>
+        <ymin>-1515</ymin>
+        <xmax>1731</xmax>
+        <ymax>0</ymax>
+      </extent>
+      <id>hip_it_utm2320180421235253588</id>
+      <datasource>./hip_it_utm23.ovr</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hip_it_utm23</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="800" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#050505"/>
+              <item alpha="255" value="3.15" label="3.15" color="#050505"/>
+              <item alpha="255" value="6.3" label="6.3" color="#060606"/>
+              <item alpha="255" value="9.45" label="9.45" color="#070707"/>
+              <item alpha="255" value="12.6" label="12.6" color="#080808"/>
+              <item alpha="255" value="15.7" label="15.7" color="#090909"/>
+              <item alpha="255" value="18.9" label="18.9" color="#0a0a0a"/>
+              <item alpha="255" value="22" label="22" color="#0b0b0b"/>
+              <item alpha="255" value="25.2" label="25.2" color="#0c0c0c"/>
+              <item alpha="255" value="28.3" label="28.3" color="#0d0d0d"/>
+              <item alpha="255" value="31.5" label="31.5" color="#0e0e0e"/>
+              <item alpha="255" value="34.6" label="34.6" color="#0f0f0f"/>
+              <item alpha="255" value="37.8" label="37.8" color="#101010"/>
+              <item alpha="255" value="40.9" label="40.9" color="#111111"/>
+              <item alpha="255" value="44.1" label="44.1" color="#121212"/>
+              <item alpha="255" value="47.2" label="47.2" color="#131313"/>
+              <item alpha="255" value="50.4" label="50.4" color="#141414"/>
+              <item alpha="255" value="53.5" label="53.5" color="#151515"/>
+              <item alpha="255" value="56.7" label="56.7" color="#161616"/>
+              <item alpha="255" value="59.8" label="59.8" color="#171717"/>
+              <item alpha="255" value="63" label="63" color="#181818"/>
+              <item alpha="255" value="66.1" label="66.1" color="#191919"/>
+              <item alpha="255" value="69.3" label="69.3" color="#1a1a1a"/>
+              <item alpha="255" value="72.4" label="72.4" color="#1b1b1b"/>
+              <item alpha="255" value="75.6" label="75.6" color="#1c1c1c"/>
+              <item alpha="255" value="78.7" label="78.7" color="#1d1d1d"/>
+              <item alpha="255" value="81.9" label="81.9" color="#1e1e1e"/>
+              <item alpha="255" value="85" label="85" color="#1f1f1f"/>
+              <item alpha="255" value="88.2" label="88.2" color="#202020"/>
+              <item alpha="255" value="91.3" label="91.3" color="#212121"/>
+              <item alpha="255" value="94.5" label="94.5" color="#222222"/>
+              <item alpha="255" value="97.6" label="97.6" color="#232323"/>
+              <item alpha="255" value="101" label="101" color="#242424"/>
+              <item alpha="255" value="104" label="104" color="#242424"/>
+              <item alpha="255" value="107" label="107" color="#252525"/>
+              <item alpha="255" value="110" label="110" color="#262626"/>
+              <item alpha="255" value="113" label="113" color="#272727"/>
+              <item alpha="255" value="117" label="117" color="#282828"/>
+              <item alpha="255" value="120" label="120" color="#292929"/>
+              <item alpha="255" value="123" label="123" color="#2a2a2a"/>
+              <item alpha="255" value="126" label="126" color="#2b2b2b"/>
+              <item alpha="255" value="129" label="129" color="#2c2c2c"/>
+              <item alpha="255" value="132" label="132" color="#2d2d2d"/>
+              <item alpha="255" value="135" label="135" color="#2e2e2e"/>
+              <item alpha="255" value="139" label="139" color="#2f2f2f"/>
+              <item alpha="255" value="142" label="142" color="#303030"/>
+              <item alpha="255" value="145" label="145" color="#313131"/>
+              <item alpha="255" value="148" label="148" color="#323232"/>
+              <item alpha="255" value="151" label="151" color="#333333"/>
+              <item alpha="255" value="154" label="154" color="#343434"/>
+              <item alpha="255" value="157" label="157" color="#353535"/>
+              <item alpha="255" value="161" label="161" color="#363636"/>
+              <item alpha="255" value="164" label="164" color="#373737"/>
+              <item alpha="255" value="167" label="167" color="#383838"/>
+              <item alpha="255" value="170" label="170" color="#393939"/>
+              <item alpha="255" value="173" label="173" color="#3a3a3a"/>
+              <item alpha="255" value="176" label="176" color="#3b3b3b"/>
+              <item alpha="255" value="180" label="180" color="#3c3c3c"/>
+              <item alpha="255" value="183" label="183" color="#3d3d3d"/>
+              <item alpha="255" value="186" label="186" color="#3e3e3e"/>
+              <item alpha="255" value="189" label="189" color="#3f3f3f"/>
+              <item alpha="255" value="192" label="192" color="#404040"/>
+              <item alpha="255" value="195" label="195" color="#414141"/>
+              <item alpha="255" value="198" label="198" color="#424242"/>
+              <item alpha="255" value="202" label="202" color="#424242"/>
+              <item alpha="255" value="205" label="205" color="#434343"/>
+              <item alpha="255" value="208" label="208" color="#444444"/>
+              <item alpha="255" value="211" label="211" color="#454545"/>
+              <item alpha="255" value="214" label="214" color="#464646"/>
+              <item alpha="255" value="217" label="217" color="#474747"/>
+              <item alpha="255" value="220" label="220" color="#484848"/>
+              <item alpha="255" value="224" label="224" color="#494949"/>
+              <item alpha="255" value="227" label="227" color="#4a4a4a"/>
+              <item alpha="255" value="230" label="230" color="#4b4b4b"/>
+              <item alpha="255" value="233" label="233" color="#4c4c4c"/>
+              <item alpha="255" value="236" label="236" color="#4d4d4d"/>
+              <item alpha="255" value="239" label="239" color="#4e4e4e"/>
+              <item alpha="255" value="243" label="243" color="#4f4f4f"/>
+              <item alpha="255" value="246" label="246" color="#505050"/>
+              <item alpha="255" value="249" label="249" color="#515151"/>
+              <item alpha="255" value="252" label="252" color="#525252"/>
+              <item alpha="255" value="255" label="255" color="#535353"/>
+              <item alpha="255" value="258" label="258" color="#545454"/>
+              <item alpha="255" value="261" label="261" color="#555555"/>
+              <item alpha="255" value="265" label="265" color="#565656"/>
+              <item alpha="255" value="268" label="268" color="#575757"/>
+              <item alpha="255" value="271" label="271" color="#585858"/>
+              <item alpha="255" value="274" label="274" color="#595959"/>
+              <item alpha="255" value="277" label="277" color="#5a5a5a"/>
+              <item alpha="255" value="280" label="280" color="#5b5b5b"/>
+              <item alpha="255" value="283" label="283" color="#5c5c5c"/>
+              <item alpha="255" value="287" label="287" color="#5d5d5d"/>
+              <item alpha="255" value="290" label="290" color="#5e5e5e"/>
+              <item alpha="255" value="293" label="293" color="#5f5f5f"/>
+              <item alpha="255" value="296" label="296" color="#606060"/>
+              <item alpha="255" value="299" label="299" color="#616161"/>
+              <item alpha="255" value="302" label="302" color="#616161"/>
+              <item alpha="255" value="306" label="306" color="#626262"/>
+              <item alpha="255" value="309" label="309" color="#636363"/>
+              <item alpha="255" value="312" label="312" color="#646464"/>
+              <item alpha="255" value="315" label="315" color="#656565"/>
+              <item alpha="255" value="318" label="318" color="#666666"/>
+              <item alpha="255" value="321" label="321" color="#676767"/>
+              <item alpha="255" value="324" label="324" color="#686868"/>
+              <item alpha="255" value="328" label="328" color="#696969"/>
+              <item alpha="255" value="331" label="331" color="#6a6a6a"/>
+              <item alpha="255" value="334" label="334" color="#6b6b6b"/>
+              <item alpha="255" value="337" label="337" color="#6c6c6c"/>
+              <item alpha="255" value="340" label="340" color="#6d6d6d"/>
+              <item alpha="255" value="343" label="343" color="#6e6e6e"/>
+              <item alpha="255" value="346" label="346" color="#6f6f6f"/>
+              <item alpha="255" value="350" label="350" color="#707070"/>
+              <item alpha="255" value="353" label="353" color="#717171"/>
+              <item alpha="255" value="356" label="356" color="#727272"/>
+              <item alpha="255" value="359" label="359" color="#737373"/>
+              <item alpha="255" value="362" label="362" color="#747474"/>
+              <item alpha="255" value="365" label="365" color="#757575"/>
+              <item alpha="255" value="369" label="369" color="#767676"/>
+              <item alpha="255" value="372" label="372" color="#777777"/>
+              <item alpha="255" value="375" label="375" color="#787878"/>
+              <item alpha="255" value="378" label="378" color="#797979"/>
+              <item alpha="255" value="381" label="381" color="#7a7a7a"/>
+              <item alpha="255" value="384" label="384" color="#7b7b7b"/>
+              <item alpha="255" value="387" label="387" color="#7c7c7c"/>
+              <item alpha="255" value="391" label="391" color="#7d7d7d"/>
+              <item alpha="255" value="394" label="394" color="#7e7e7e"/>
+              <item alpha="255" value="397" label="397" color="#7f7f7f"/>
+              <item alpha="255" value="400" label="400" color="#808080"/>
+              <item alpha="255" value="403" label="403" color="#808080"/>
+              <item alpha="255" value="406" label="406" color="#818181"/>
+              <item alpha="255" value="409" label="409" color="#828282"/>
+              <item alpha="255" value="413" label="413" color="#838383"/>
+              <item alpha="255" value="416" label="416" color="#848484"/>
+              <item alpha="255" value="419" label="419" color="#858585"/>
+              <item alpha="255" value="422" label="422" color="#868686"/>
+              <item alpha="255" value="425" label="425" color="#878787"/>
+              <item alpha="255" value="428" label="428" color="#888888"/>
+              <item alpha="255" value="431" label="431" color="#898989"/>
+              <item alpha="255" value="435" label="435" color="#8a8a8a"/>
+              <item alpha="255" value="438" label="438" color="#8b8b8b"/>
+              <item alpha="255" value="441" label="441" color="#8c8c8c"/>
+              <item alpha="255" value="444" label="444" color="#8d8d8d"/>
+              <item alpha="255" value="447" label="447" color="#8e8e8e"/>
+              <item alpha="255" value="450" label="450" color="#8f8f8f"/>
+              <item alpha="255" value="454" label="454" color="#909090"/>
+              <item alpha="255" value="457" label="457" color="#919191"/>
+              <item alpha="255" value="460" label="460" color="#929292"/>
+              <item alpha="255" value="463" label="463" color="#939393"/>
+              <item alpha="255" value="466" label="466" color="#949494"/>
+              <item alpha="255" value="469" label="469" color="#959595"/>
+              <item alpha="255" value="472" label="472" color="#969696"/>
+              <item alpha="255" value="476" label="476" color="#979797"/>
+              <item alpha="255" value="479" label="479" color="#989898"/>
+              <item alpha="255" value="482" label="482" color="#999999"/>
+              <item alpha="255" value="485" label="485" color="#9a9a9a"/>
+              <item alpha="255" value="488" label="488" color="#9b9b9b"/>
+              <item alpha="255" value="491" label="491" color="#9c9c9c"/>
+              <item alpha="255" value="494" label="494" color="#9d9d9d"/>
+              <item alpha="255" value="498" label="498" color="#9e9e9e"/>
+              <item alpha="255" value="501" label="501" color="#9e9e9e"/>
+              <item alpha="255" value="504" label="504" color="#9f9f9f"/>
+              <item alpha="255" value="507" label="507" color="#a0a0a0"/>
+              <item alpha="255" value="510" label="510" color="#a1a1a1"/>
+              <item alpha="255" value="513" label="513" color="#a2a2a2"/>
+              <item alpha="255" value="517" label="517" color="#a3a3a3"/>
+              <item alpha="255" value="520" label="520" color="#a4a4a4"/>
+              <item alpha="255" value="523" label="523" color="#a5a5a5"/>
+              <item alpha="255" value="526" label="526" color="#a6a6a6"/>
+              <item alpha="255" value="529" label="529" color="#a7a7a7"/>
+              <item alpha="255" value="532" label="532" color="#a8a8a8"/>
+              <item alpha="255" value="535" label="535" color="#a9a9a9"/>
+              <item alpha="255" value="539" label="539" color="#aaaaaa"/>
+              <item alpha="255" value="542" label="542" color="#ababab"/>
+              <item alpha="255" value="545" label="545" color="#acacac"/>
+              <item alpha="255" value="548" label="548" color="#adadad"/>
+              <item alpha="255" value="551" label="551" color="#aeaeae"/>
+              <item alpha="255" value="554" label="554" color="#afafaf"/>
+              <item alpha="255" value="557" label="557" color="#b0b0b0"/>
+              <item alpha="255" value="561" label="561" color="#b1b1b1"/>
+              <item alpha="255" value="564" label="564" color="#b2b2b2"/>
+              <item alpha="255" value="567" label="567" color="#b3b3b3"/>
+              <item alpha="255" value="570" label="570" color="#b4b4b4"/>
+              <item alpha="255" value="573" label="573" color="#b5b5b5"/>
+              <item alpha="255" value="576" label="576" color="#b6b6b6"/>
+              <item alpha="255" value="580" label="580" color="#b7b7b7"/>
+              <item alpha="255" value="583" label="583" color="#b8b8b8"/>
+              <item alpha="255" value="586" label="586" color="#b9b9b9"/>
+              <item alpha="255" value="589" label="589" color="#bababa"/>
+              <item alpha="255" value="592" label="592" color="#bbbbbb"/>
+              <item alpha="255" value="595" label="595" color="#bcbcbc"/>
+              <item alpha="255" value="598" label="598" color="#bdbdbd"/>
+              <item alpha="255" value="602" label="602" color="#bdbdbd"/>
+              <item alpha="255" value="605" label="605" color="#bebebe"/>
+              <item alpha="255" value="608" label="608" color="#bfbfbf"/>
+              <item alpha="255" value="611" label="611" color="#c0c0c0"/>
+              <item alpha="255" value="614" label="614" color="#c1c1c1"/>
+              <item alpha="255" value="617" label="617" color="#c2c2c2"/>
+              <item alpha="255" value="620" label="620" color="#c3c3c3"/>
+              <item alpha="255" value="624" label="624" color="#c4c4c4"/>
+              <item alpha="255" value="627" label="627" color="#c5c5c5"/>
+              <item alpha="255" value="630" label="630" color="#c6c6c6"/>
+              <item alpha="255" value="633" label="633" color="#c7c7c7"/>
+              <item alpha="255" value="636" label="636" color="#c8c8c8"/>
+              <item alpha="255" value="639" label="639" color="#c9c9c9"/>
+              <item alpha="255" value="643" label="643" color="#cacaca"/>
+              <item alpha="255" value="646" label="646" color="#cbcbcb"/>
+              <item alpha="255" value="649" label="649" color="#cccccc"/>
+              <item alpha="255" value="652" label="652" color="#cdcdcd"/>
+              <item alpha="255" value="655" label="655" color="#cecece"/>
+              <item alpha="255" value="658" label="658" color="#cfcfcf"/>
+              <item alpha="255" value="661" label="661" color="#d0d0d0"/>
+              <item alpha="255" value="665" label="665" color="#d1d1d1"/>
+              <item alpha="255" value="668" label="668" color="#d2d2d2"/>
+              <item alpha="255" value="671" label="671" color="#d3d3d3"/>
+              <item alpha="255" value="674" label="674" color="#d4d4d4"/>
+              <item alpha="255" value="677" label="677" color="#d5d5d5"/>
+              <item alpha="255" value="680" label="680" color="#d6d6d6"/>
+              <item alpha="255" value="683" label="683" color="#d7d7d7"/>
+              <item alpha="255" value="687" label="687" color="#d8d8d8"/>
+              <item alpha="255" value="690" label="690" color="#d9d9d9"/>
+              <item alpha="255" value="693" label="693" color="#dadada"/>
+              <item alpha="255" value="696" label="696" color="#dbdbdb"/>
+              <item alpha="255" value="699" label="699" color="#dbdbdb"/>
+              <item alpha="255" value="702" label="702" color="#dcdcdc"/>
+              <item alpha="255" value="706" label="706" color="#dddddd"/>
+              <item alpha="255" value="709" label="709" color="#dedede"/>
+              <item alpha="255" value="712" label="712" color="#dfdfdf"/>
+              <item alpha="255" value="715" label="715" color="#e0e0e0"/>
+              <item alpha="255" value="718" label="718" color="#e1e1e1"/>
+              <item alpha="255" value="721" label="721" color="#e2e2e2"/>
+              <item alpha="255" value="724" label="724" color="#e3e3e3"/>
+              <item alpha="255" value="728" label="728" color="#e4e4e4"/>
+              <item alpha="255" value="731" label="731" color="#e5e5e5"/>
+              <item alpha="255" value="734" label="734" color="#e6e6e6"/>
+              <item alpha="255" value="737" label="737" color="#e7e7e7"/>
+              <item alpha="255" value="740" label="740" color="#e8e8e8"/>
+              <item alpha="255" value="743" label="743" color="#e9e9e9"/>
+              <item alpha="255" value="746" label="746" color="#eaeaea"/>
+              <item alpha="255" value="750" label="750" color="#ebebeb"/>
+              <item alpha="255" value="753" label="753" color="#ececec"/>
+              <item alpha="255" value="756" label="756" color="#ededed"/>
+              <item alpha="255" value="759" label="759" color="#eeeeee"/>
+              <item alpha="255" value="762" label="762" color="#efefef"/>
+              <item alpha="255" value="765" label="765" color="#f0f0f0"/>
+              <item alpha="255" value="769" label="769" color="#f1f1f1"/>
+              <item alpha="255" value="772" label="772" color="#f2f2f2"/>
+              <item alpha="255" value="775" label="775" color="#f3f3f3"/>
+              <item alpha="255" value="778" label="778" color="#f4f4f4"/>
+              <item alpha="255" value="781" label="781" color="#f5f5f5"/>
+              <item alpha="255" value="784" label="784" color="#f6f6f6"/>
+              <item alpha="255" value="787" label="787" color="#f7f7f7"/>
+              <item alpha="255" value="791" label="791" color="#f8f8f8"/>
+              <item alpha="255" value="794" label="794" color="#f9f9f9"/>
+              <item alpha="255" value="797" label="797" color="#fafafa"/>
+              <item alpha="255" value="800" label="800" color="#fafafa"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">0</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">0</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">0</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSUrl type="QString"></WMSUrl>
+  </properties>
+  <visibility-presets/>
+</qgis>
